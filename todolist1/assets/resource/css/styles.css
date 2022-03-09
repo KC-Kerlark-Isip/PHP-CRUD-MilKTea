@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #FFF;
+  color: #555;
+  font-family: 'Merriweather','sans-serif';
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+header{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(20, 20, 20, 0.69), rgba(20, 20, 20, 0.69)),url(../img/tapiocanohands1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h5{
+  color: #FFF;
+  font-size: 98%;
+  font-family: 'RocknRoll One', sans-serif;
+  margin-top: 13px;
+  padding-left: 17px;
+}
+button {
+  background-color: #b88f14;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.submitbtn{
+  background-color: #1c1c1c;
+  color: white;
+  padding: 13px 15px;
+  margin: 20px 10px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+.logo{
+  margin-top:10px;
+  height:40px;
+  margin-bottom: 10px;
+  display: block;
+}
+.input-group{
+  width:10px; 
+}
+.welp{
+  font-size: 25%;
+  color: #FFF;
+}
+.navcon{
+  background-color: transparent;
+}
+.navitem{
+  text-transform: uppercase;
+  font-size: 70%;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.navitem:hover {
+border-bottom: 2px solid #b88f14;
+}
+.navbar-dark .navbar-nav .active>
+.nav-link, .navbar-dark .navbar-nav 
+.nav-link.active, .navbar-dark .navbar-nav 
+.nav-link.show, .navbar-dark .navbar-nav .show>
+.nav-link{
+  color: #e6b319;
+  font-weight: bold;
+}
+.header-text{
+  font-family: 'Merriweather', 'sans-serif';
+  font-color: #FFF;
+  background-color: transparent;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.main{
+  font-size: 2rem;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  margin-bottom: 30px;
+}
+.mainh2{
+  font-size: 2rem;
+  color:  #997300;
+  font-family: 'Merriweather', 'sans-serif';
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  padding-top: 30px;
+}
+.mainh6{
+  font-size: 2rem;
+  font-style: italic;
+  color: #FFF;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  margin-bottom: 30px;
+}
+.btn:link, .btn:visited{
+  border: 1px solid #b88f14;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #FFF;
+}
+.btn-full:link, .btn-full:visited{
+  background-color: #b88f14;
+  transition: 0.5s;
+}
+.btn-full:hover, .btn-full:active{
+  background-color: #b88f14;
+  transition: 0.5s;
+}
+.btn-ghost:link, .btn-ghost:visited{
+  color: #FFF;
+  transition: 0.5s;
+}
+.btn-ghost:hover, .btn-ghost:active{
+  background-color: #b88f14;
+  color: #FFF;
+  transition: 0.5s;
+}
+.card h3{
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+.card h4{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-bottom: -20px;
+  font-size: 85%;
+  color: #1c1c1c;
+}
+.cardcon{
+  background-color: #f0ce86;
+  min-height: /*630px*/;
+  padding: 15px;
+  -webkit-box-shadow: 4px 9px 37px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 9px 37px -2px rgba(0,0,0,0.75);
+  box-shadow: 4px 9px 37px -2px rgba(0,0,0,0.75);
+}
+.card p{
+  font-size: 73%;
+
+}
+.btn-card:link, .btn-card:visited{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 78%;
+  color: #1c1c1c;
+  border: 1px solid #1c1c1c;
+  padding: 5px 15px;
+  margin-left: 0px;
+  transition: 0.5s;
+  border-radius: 30px;
+}
+.btn-card:hover, .btn-card:active{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f0ce86;
+  color: #FFF;
+  transition: 0.5s;
+}
+.myteam{
+  padding-top: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  font-size: 200%;
+  color: #f0ce86;
+}
+.MTCard{
+  margin-top: 25px;
+  background-color: #f0ce86;
+  border: 5px solid #997300;
+  border-radius: 5px;
+}
+.MTC-name{
+  color:#80009A;
+  font-size: 120%;
+}
+.section1{
+  min-height: 101vh;
+  background-image: linear-gradient(rgba(220, 220, 220, 0.69), rgba(220, 220, 220, 0.69)),url(../img/milkteabg2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2{
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(20, 20, 20, 0.69), rgba(20, 20, 20, 0.69)),url(../img/milkteaboys1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section3{
+  min-height: 60vh;
+  background-color: #FFF;
+}
+.section4{
+  height: 101vh;
+  padding-top: 20px;
+  background-image: linear-gradient(rgba(220, 220, 220, 0.69), rgba(220, 220, 220, 0.69)),url(../img/milkteach1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  min-height: 10vh;
+  background-color: #343a40;
+  padding-bottom: 20px;
+}
+.ft{
+  color: #FFF;
+  font-size: 68%;
+  padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.ft2{
+  font-size: 80%;
+  color: #FFF;
+  padding: 20px;
+  margin-bottom: 0;
+}
+.ft2 i{
+  font-size: 90%;
+  color: #e67e22;
+  margin-right: 10px;
+}
+.contactus{
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  font-size: 200%;
+  color: #997300;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+@media(max-width: 768px){
+  .navbar-dark .navbar-nav .active>
+  .nav-link, .navbar-dark .navbar-nav 
+  .nav-link.active, .navbar-dark .navbar-nav 
+  .nav-link.show, .navbar-dark .navbar-nav .show>
+  .nav-link{
+    color: #a18213;
+    font-weight: bold;
+  }
+  h5{
+    margin-top: 13px;
+    padding-right: 130px;
+  }
+  .navcon{
+    background-color: #f0ce86;
+  }
+  .btn{
+    font-size: 0.8rem;
+  }
+  .header-text{
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  .welp{
+    padding: 0px;
+  }
+  .main{
+    font-size: 1.5rem;
+  }
+  .btn-card:link, .btn:visited{
+    padding-right: 40px;
+    padding-left: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .MTCard{
+    margin-top: 0px;
+  }
+  .ft2{
+  font-size: 80%;
+  text-align: center;
+  }
+  .ft2 i{
+  font-size: 73%;
+  }
+  .rtbutton{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+  }
+  .rtbutton a:link,.rtbutton a:visited{
+    color: #80009A;
+  }
+}
+@media(min-width: 340px){
+  .btn-card:link, .btn:visited{
+    margin-left: 28%;
+  }
+}
+@media(max-height: 1200px){
+  .btn-card:link, .btn:visited{
+    margin-left: 21%;
+  }
+  .ft2{
+  font-size: 100%;
+  }
+  .ft2 i{
+  font-size: 73%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
